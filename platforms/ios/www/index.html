@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta>
+    <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+    <script src="lib/JsBarcode.code39.min.js"></script>
+    <link rel="import" href="bower_components/paper-material/paper-material.html">
+    <link rel="import" href="bower_components/paper-input/paper-input.html">
+    <link rel="import" href="bower_components/paper-button/paper-button.html">
+    <title>Hello World</title>
+  </head>
+  <body unresolved>
+  <style is="custom-style">
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: #0d47a1;
+      padding: 20px;
+      text-align: center;
+    }
+    .card {
+      background: white;
+      max-width: 360px;
+      margin: auto;
+      padding: 20px;
+      border-radius: 2px;
+    }
+    #login {
+      max-width: 360px;
+    }
+    .copy {
+      font-size: 16;
+    }
+    paper-input {
+      text-align: left;
+    }
+    paper-button {
+      margin: 12px auto;
+      width: 100%;
+      color: white;
+      background: #2196f3;
+    }
+    #submitButton {
+      display: block;
+      background-color: #2196F3
+    }
+    .desc {
+      font-size: 24;
+      margin-bottom: 0px;
+    }
+    #studentPhoto {
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+    }
+    .container {
+      padding: 20px;
+      display: block;
+    }
+  </style>
+
+    <paper-material id="main" class="card" elevation="2">
+      <img id="studentPhoto" src="about:blank" crossOrigin="Anonymous">
+      <svg id="barcode"></svg>
+    </paper-material>
+    <paper-material id="login" class="card" elevation="2">
+      <p class="desc">Sign in to scan your lunch card</p>
+      <form>
+        <paper-input id="username" label="Canvas username"></paper-input>
+        <paper-input label="Password" id="password" type="password" onkeypress="checkSubmit(event)"></paper-input>
+      </form>
+      <paper-button onclick="login()" raised id="loginButton">SIGN IN</paper-button>
+
+    </paper-material>
+  <script type="text/javascript" src="cordova.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+  </body>
+</html>
