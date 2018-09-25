@@ -13,7 +13,10 @@
    version="1.1"
    id="svg831"
    sodipodi:docname="card.svg"
-   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   inkscape:export-filename="C:\Users\guberti\Documents\GitHub\epslunchids\res\icon\android\uhdpi.png"
+   inkscape:export-xdpi="1024"
+   inkscape:export-ydpi="1024">
   <metadata
      id="metadata837">
     <rdf:RDF>
@@ -42,7 +45,7 @@
      id="namedview833"
      showgrid="false"
      inkscape:zoom="12.153398"
-     inkscape:cx="28.218182"
+     inkscape:cx="28.012478"
      inkscape:cy="19.636364"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
@@ -54,7 +57,7 @@
      inkscape:label="Bottom" />
   <g
      id="g1162"
-     transform="matrix(1.2,0,0,1.2,-4.7999999,-4.8000001)">
+     transform="matrix(1.2,0,0,1.2,-4.7999999,-5.1201472)">
     <rect
        ry="3.9339299"
        y="10.068221"
