@@ -6,10 +6,10 @@
     </feature>
     <name>EPSLunchIDs</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        Allows easy swiping of your phone as a lunch ID at Eastside Prep
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="guberti@eastsideprep.org" href="http://epschedule.com">
+        Gavin Uberti
     </author>
     <content src="index.html" />
     <access origin="*" />
@@ -21,5 +21,11 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <allow-intent href="market:*" />
+    <icon density="ldpi" src="res/icon/android/ldpi.png" />
+    <icon density="mdpi" src="res/icon/android/mdpi.png" />
+    <icon density="hdpi" src="res/icon/android/hdpi.png" />
+    <icon density="xhdpi" src="res/icon/android/xhdpi.png" />
+    <icon density="xxhdpi" src="res/icon/android/xxhdpi.png" />
+    <icon density="xxxhdpi" src="res/icon/android/xxxhdpi.png" />
     <preference name="loglevel" value="DEBUG" />
 </widget>

@@ -37,7 +37,9 @@ app.initialize();
 
 function login() {
     var data = new FormData();
-    data.append('username', username.value);
+    // Remove @eastsideprep.org
+    var cleanedUsername = username.value.split("@")[0];
+    data.append('username', cleanedUsername);
     data.append('password', password.value);
 
     xhr = new XMLHttpRequest();

@@ -4,8 +4,8 @@
   "name": "EPSLunchIDs",
   "short_name": "EPSLunchIDs",
   "version": "com.guberti.epslunchids",
-  "description": "A sample Apache Cordova application that responds to the deviceready event.",
-  "author": "Apache Cordova Team",
+  "description": "Allows easy swiping of your phone as a lunch ID at Eastside Prep",
+  "author": "Gavin Uberti",
   "icons": [],
   "start_url": "index.html"
 }
